@@ -15,5 +15,21 @@
       font-weight: 600;
       font-size: 16px;
     }
+
+    .photo-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    
+      .image-caption {
+        width: 150px;
+        text-align: center;
+  
+        .image-random {
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
   }
 }

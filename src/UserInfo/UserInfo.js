@@ -8,28 +8,36 @@ class UserInfo extends Component {
         <h2>Leanna Graham</h2>
         <p className="contact-me">Contact Me @</p>
         <table>
-          <tr>
-            <th>Email</th>
-            <td>
-              <a>Sincere@april.biz</a>
-            </td>
-          </tr>
-          <tr>
-            <th>Phone</th>
-            <td>
-              <a>1-770-736-8031 x56442</a>
-            </td>
-          </tr>
-          <tr>
-            <th>Website</th>
-            <td>
-              <a>hildegard.org</a>
-            </td>
-          </tr>
-          <tr>
-            <th>Company</th>
-            <td>Romaguera-Crona</td>
-          </tr>
+          <tbody>
+            <tr>
+              <th>Email</th>
+              <td>
+                <a>Sincere@april.biz</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>Phone</th>
+              <td>
+                <a>1-770-736-8031 x56442</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>Website</th>
+              <td>
+                <a>hildegard.org</a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>Company</th>
+              <td>Romaguera-Crona</td>
+            </tr>
+          </tbody>
         </table>
       </aside>
     );
