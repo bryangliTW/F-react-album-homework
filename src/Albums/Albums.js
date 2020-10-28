@@ -5,7 +5,13 @@ class Albums extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      albums: [],
+      albums: [
+        'quidem molestiae enim',
+        'sunt qui excepturi placeat culpa',
+        'omnis laborum odio',
+        'non esse culpa molestiae omnis sed optio',
+        'eaque aut omnis a',
+      ],
     };
   }
 
@@ -13,9 +19,9 @@ class Albums extends Component {
     const { albums } = this.state;
     return (
       <section className="Albums">
-        {albums.map(() => (
+        {albums.map((album) => (
           <div className="album">
-            <p className="title">Album title here...</p>
+            <h3>{album}</h3>
           </div>
         ))}
       </section>
