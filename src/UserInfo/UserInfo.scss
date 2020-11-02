@@ -29,3 +29,21 @@ td {
   color: gray;
   margin: 0
 }
+
+.user-info-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-me-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-title {
+  font-weight: bold;
+}
+
+.contact-me-info {
+  text-align: right;
+}

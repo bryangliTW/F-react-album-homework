@@ -25,27 +25,27 @@ class Albums extends Component {
     return (
       <section className="Albums">
         {albums.map((album) => (
-          <div className="album" key={album.id} id={album.id} onClick={this.changeMode}>
+          <section className="album" key={album.id} id={album.id} onClick={this.changeMode}>
             <h3 className="title" id={album.id}>
               {album.title}
             </h3>
             {parseInt(this.state.mode, 10) === album.id && (
               <div className="photo-container">
                 <div className="image-caption">
-                  <img className="image-random" />
+                  <img alt={`img-${album.id}-1`} className="image-random" />
                   <span>some random stuff</span>
                 </div>
                 <div className="image-caption">
-                  <img className="image-random" />
+                  <img alt={`img-${album.id}-2`} className="image-random" />
                   <span>some random stuff</span>
                 </div>
                 <div className="image-caption">
-                  <img className="image-random" />
+                  <img alt={`img-${album.id}-3`} className="image-random" />
                   <span>some random stuff</span>
                 </div>
               </div>
             )}
-          </div>
+          </section>
         ))}
       </section>
     );
